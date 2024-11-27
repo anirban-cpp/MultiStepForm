@@ -1,0 +1,85 @@
+.windowContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.formContainer > button {
+  background-color: #006eff;
+  padding: 10px 20px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: all linear 250ms;
+}
+
+.formContainer > button:hover {
+  background-color: #0d5fca;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.line {
+  width: 50px;
+  border: 1px solid lightgray;
+  margin: 0 2px;
+}
+
+.active {
+  background-color: #006eff;
+  color: white;
+  border: 1px solid #006eff;
+  transition: all linear 250ms;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.inputField > input {
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputField > label {
+  color: gray;
+}
